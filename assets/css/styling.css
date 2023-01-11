@@ -1,0 +1,248 @@
+/* 
+  Website Designed and Developed by Sherdil
+  Description: Graphxion Portfolio Page
+  Version: 1.0
+*/
+
+/* Main Theme */
+* {
+  background-color: rgb(20, 20, 20) !important;
+  color: white !important;
+}
+
+body {
+  line-height: 1.0;
+  min-height: 320px;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1750px !important;
+}
+
+/* Navbar Logo + Branding */
+.navbar {
+  left: 0;
+  justify-content: left !important;
+}
+
+.nav-logo {
+  height: 100px;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 100px;
+  background-color: black;
+}
+
+
+.logo {
+  padding-left: 400px;
+}
+
+.header ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Main Paragraph */
+.text-h1 {
+  padding-top: 50px;
+  text-align: justify;
+  font-size: 1.7em;
+  font-weight: 200;
+  font-family: 'Assistant', sans-serif;
+  word-wrap: break-word;
+}
+
+.text-h2 {
+  font-family: 'Allerta Stencil', sans-serif;
+  text-shadow: 0rem 0rem 0.25rem #ffffff;
+  line-height: 1.3;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.heading-1 h1 {
+  padding-bottom: 20px;
+  font-size: 75px;
+  font-family: 'Allerta Stencil', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-shadow: 0rem 0rem 0.25rem #ffffff;
+  padding-left: 25px;
+  padding-bottom: 0 !important;
+}
+
+/* Portfolio/Contact Us Heading */
+.heading-2 {
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0rem 0rem 0.25rem #ffffff;
+  font-family: 'Allerta Stencil', sans-serif;
+  letter-spacing: -0.025rem;
+  width: 100%;
+  font-size: 1.125em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Text Under Branding */
+.secondary-heading {
+  font-family: 'Assistant', sans-serif;
+  padding-top: 70px;
+}
+
+/* Contact Methods */
+.socials {
+  align-items: center;
+}
+
+.socials a {
+  text-decoration: none;
+  color: black;
+  font-size: 3.5em;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Socials List */
+.socials ul {
+  text-align: center;
+  display: flex;
+  list-style: none;
+}
+
+/* Divider */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+hr.double {
+  border-top: 2px solid rgb(255, 255, 255);
+  border-radius: 0px;
+}
+
+img {
+  height: 400px;
+}
+
+.logo {
+  text-align: center;
+}
+
+/*
+.creator-name {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 0rem 0rem 0.25rem #ffffff;
+  margin-top: 50px;
+}
+
+.follower-count {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 0rem 0rem 0.25rem #ffffff;
+  margin-bottom: 50px;
+}
+
+.creator-image {
+  text-align: center;
+}
+*/
+
+.portfolio-section h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mail h3 {
+  padding-top: 30px;
+}
+
+.phone h3 {
+  padding-top: 30px;
+}
+
+.thumbnail {
+  width: 496px;
+  height: 279px;
+  margin-bottom: 30px;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all .35s;
+}
+
+.show {
+  opacity: 1;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+
+  body{
+    max-width: 1vw;
+  }
+
+  .nav-logo {
+    height: 0px;
+  }
+
+  .heading-1 h1 {
+    font-size: 50px;
+    padding-left: 25px;
+  }
+
+  .logo-thumbnail {
+    height: 200px !important;
+  }
+
+  .me-5 {
+    margin-left: 25px !important;
+  }
+
+  .text-h1 {
+    
+    word-break: break-all !important;
+  }
+
+  .portfolio-section h1 {
+    padding-left: 25px;
+  }
+
+  .thumbnail {
+    max-width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .socials {
+    font-size: 35px;
+  }
+
+  .mail h3 {
+    font-size: 18px;
+  }
+
+  .mail, .phone {
+    font-size: 15px;
+  }
+
+  .last-row {
+    display: block !important;
+  }
+}
